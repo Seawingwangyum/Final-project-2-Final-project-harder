@@ -1,0 +1,152 @@
+#Background{
+    overflow: hidden;
+    background-color:black;
+    height: 98vh;
+    width:auto;
+}
+
+/*Below is for the starting screen*/
+
+#StartScreen{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    height:75%;
+    width:75%;
+    display: block;
+    background-color: black;
+    z-index: 1;
+}
+
+#firstname{
+    top:30%;
+}
+
+#lastname{
+    top:45%;
+}
+
+#start{
+    position: absolute;
+    margin: auto;
+    height:50px;
+    width:100px;
+    bottom:20%;
+    left:0px;
+    right:0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*This section is for the veiwport div*/
+
+#Display{
+    height:70%;
+    width:70%;
+    background-color:black;
+}
+
+#screen{
+    height:100%;
+    width: 100%;
+    background-image: url("img/Straight_closed.png");
+    background-size: cover;
+}
+/*this section is for the menu*/
+#menu{
+    height:27%;
+    width:70%; 
+}
+
+
+#selections{
+    height:77%;
+    width:100%;
+    text-align: center;
+}
+#move{
+    color:white;
+    border:5px solid white;
+    background-color: black;
+}
+#Examine{
+    color:white;
+    border:5px solid white;
+    background-color: black;
+}
+#Take{
+    color:white;
+    border:5px solid white;
+    background-color: black;
+}
+#Attack{
+    color:white;
+    border:5px solid white;
+    background-color: black;
+}
+
+/*This section is for a bunch of information*/
+
+#undecided{
+    position:absolute;
+    height:68.6%;
+    width:27.5%;
+    right:0px;
+    top:3px;
+}
+
+/*This section is for player stats*/
+
+#stats{
+    position:absolute;
+    height:26.5%;
+    width:27.5%;
+    vertical-align: bottom;
+    right:0px;
+    bottom:1px;
+    
+}
+
+/*This section is for classes for ... idk*/
+
+.borders{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin:5px;
+    font-family: 'Press Start 2P';
+    z-index: 0;
+}
+
+.labels{
+    position:relative;
+    top:-10px;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    height:10px;
+}
+
+.starttext{
+    position: absolute;
+    margin: auto;
+    height:45px;
+    width:300px;
+    left:0px;
+    right:0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.option{
+    display:inline-block;
+    height:50px;
+    width:40%;
+    text-align: center;
+    line-height: 250%;
+    border-radius: 10px;
+    margin:5px;
+
+}
